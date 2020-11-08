@@ -226,9 +226,10 @@ button:active, button:focus {
 
 .spec_phone{
 	position: absolute;
+	display: block;
 	width: 40%;
 	height: 877px;
-	left: 10%;
+	left: 12%;
 	top: 0;
 	background: url("./../img/phone_spec.png") no-repeat;
 	z-index: 5;
@@ -247,6 +248,7 @@ button:active, button:focus {
 	padding-bottom: 10px;
 	font-weight: bold;
 	width: 50%;
+	margin-top: 50px;
 }
 
 .feature_desc_mini{
@@ -259,13 +261,14 @@ button:active, button:focus {
 }
 
 .specifications li{
-	padding-left: 100px;
+	padding-left: 110px;
 	margin-top: 50px;
 }
 
 .spec_desc{
 	width: 40%;
 	padding: 10px 0;
+	color: #616368;
 }
 
 .spec_title{
@@ -330,4 +333,34 @@ button:active, button:focus {
 	left: 0;
 	top: 475px;
 	padding: 10px;
+}
+
+.clear{
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.smart_text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.smart_text h2{
+	width: 30%;
+}
+
+.hr{
+	margin: 0 50px;
+	margin-top: 40px;
+	display: block;
+	background-color: #b9b9b8;
+	width: 2px;
+	height: 120px;
+}
+
+.smart_text p{
+	padding-top: 4%;
+	width: 34%;
+	color: #616368;
 }
