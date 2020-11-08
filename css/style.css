@@ -236,9 +236,8 @@ button:active, button:focus {
 }
 
 .spec_main{
+	float: right;
 	display: flex;
-	position: relative;
-	left: 55%;
 	flex-direction: column;
 	width: 50%;
 }
