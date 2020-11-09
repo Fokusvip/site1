@@ -342,7 +342,7 @@ button:active, button:focus {
 
 .smart_text{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -363,4 +363,70 @@ button:active, button:focus {
 	padding-top: 4%;
 	width: 34%;
 	color: #616368;
+}
+
+.pluses{
+	margin: 13% 0 10% 0;
+}
+
+.pluses ul{
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	list-style: none;
+	margin: 0 5%;
+}
+
+.pluses ul .spec_title{
+	font-size: 18px;
+}
+
+.pluses ul .spec_desc{
+	font-size: 16px;
+	width: 68%;
+}
+
+.auto_ico::after{
+	content: "";
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	background-image: url("./../img/auto.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ffecef;
+	border-radius: 50%;
+	top: -80px;
+	left: 0;
+	padding: 10px;
+}
+
+.network_ico::after{
+	content: "";
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	background-image: url("./../img/network.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #f4f4ff;
+	border-radius: 50%;
+	top: -80px;
+	left: 33%;
+	padding: 10px;
+}
+
+.reward_ico::after{
+	content: "";
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	background-image: url("./../img/reward.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #e4ffee;
+	border-radius: 50%;
+	top: -80px;
+	left: 66%;
+	padding: 10px;
 }
